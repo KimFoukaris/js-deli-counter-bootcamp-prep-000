@@ -26,7 +26,7 @@ function currentLine(katzDeliLine) {
     for (let i=0; i<count-1; i++) {
       line = line + " " + (i+1) + ". " + katzDeliLine[i] + ","
       }
-      line = line + " "(count) + ". " + katzDeliLine[count-1]
+      line = line + " " + count + ". " + katzDeliLine[count-1]
     return "The line is currently:" + line
       }
 }
